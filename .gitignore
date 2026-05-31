@@ -1,1 +1,15 @@
-*.sql linguist-language=SQL
+# PostgreSQL files
+*.sql.gz
+*.dump
+*.backup
+
+# pgAdmin files
+*.pgpass
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
